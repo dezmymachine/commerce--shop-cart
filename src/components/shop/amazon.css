@@ -1,0 +1,10 @@
+.shop-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 85%;
+  margin: 0 auto;
+  grid-gap: 20px;
+}
+.super {
+  margin-top: 2rem;
+}

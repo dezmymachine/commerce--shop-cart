@@ -1,0 +1,43 @@
+.nav_box {
+  display: flex;
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.count {
+  font-size: 20px;
+  color: gray;
+}
+.my_shop {
+  cursor: pointer;
+  padding: 0.7rem;
+  font-size: 15px;
+  color: #436957;
+  cursor: pointer;
+  outline: none;
+  /* border: 1px solid #436957; */
+  /* margin-left: 0rem; */
+}
+.my_shop:hover {
+  color: #436957;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.available {
+  font-weight: bold;
+  color: #436957;
+  font-size: 2rem;
+}

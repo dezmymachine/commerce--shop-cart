@@ -1,0 +1,27 @@
+.links-container {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  background-color: rgb(233, 220, 209);
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.icons {
+  width: 50px;
+}
+.cart-icon {
+  width: 50px;
+}
+.links span {
+  margin-right: 1rem;
+}
+.links {
+  text-decoration: none;
+}

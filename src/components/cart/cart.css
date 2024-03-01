@@ -1,0 +1,124 @@
+/* article {
+  display: flex;
+  flex-direction: column;
+}
+.cart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_box {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.cart_img {
+  height: 150px;
+  object-fit: cover;
+  flex: none;
+  width: 100%;
+}
+.total {
+  margin: 0 auto;
+} */
+.cart-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body {
+  background-color: rgb(245, 237, 237);
+}
+
+.cart-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px; /* Adjust gap size as needed */
+  margin: 0 auto;
+  width: 80%; /* Adjust width as needed */
+}
+
+.cart-card {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-img {
+  display: flex;
+  align-items: center;
+}
+
+.cart-img img {
+  width: 100px; /* Adjust image size as needed */
+  height: 100px; /* Adjust image size as needed */
+  object-fit: cover; /* Resize image to fit container */
+}
+
+.cart-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group button {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.add-minus {
+  background: #436957;
+  padding: 0.2rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2pc;
+}
+.delete-btn {
+  background: #436957;
+  padding: 0.3rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.item-name {
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.total {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.total span {
+  border: 1px solid #436957;
+  border-right: none;
+  border-left: none;
+  padding: 1rem;
+}
+.checkout {
+  background: #436957;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-left: 2rem;
+}
